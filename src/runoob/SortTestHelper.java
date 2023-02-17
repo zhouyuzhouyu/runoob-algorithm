@@ -17,6 +17,12 @@ public class SortTestHelper {
         return arr;
     }
 
+    public static void swap(Object arr[], int i, int j) {
+        Object t = arr[i];
+        arr[i] = arr[j];
+        arr[j] = t;
+    }
+
     // 打印arr数组的所有内容
     public static void printArray(Object arr[]) {
 
